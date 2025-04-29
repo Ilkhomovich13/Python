@@ -27,3 +27,16 @@ print(df[['first_name', 'city']])
 # Step 7: Display summary statistics
 print("\nSummary statistics:")
 print(df.describe())
+
+
+# Step 1: Create the DataFrame with the provided data
+data = {
+    'Month': ['Jan', 'Feb', 'Mar', 'Apr'],
+    'Sales': [5000, 6000, 7500, 8000],
+    'Expenses': [3000, 3500, 4000, 4500]
+}
+
+sales_and_expenses = pd.DataFrame(data)
+
+# Display the DataFrame
+print(sales_and_expenses)
